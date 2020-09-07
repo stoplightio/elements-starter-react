@@ -1,28 +1,18 @@
 {
-  "name": "stoplight-elements-apis",
-  "description": "Basic React app with embedded Stoplight Elements: StoplightAPI and Stoplight Project",
-  "author": {
-    "name": "Michael Miaskowski",
-    "email": "mmiask92@gmail.com"
-  },
-  "version": "0.2.0",
+  "name": "@stoplight/elements-starter-react",
+  "version": "1.0.0",
   "private": true,
+  "description": "Basic React app with embedded Stoplight Elements: StoplightAPI and Stoplight Project",
+  "author": "Stoplight <support@stoplight.io>",
+  "license": "Unlicensed",
   "dependencies": {
     "@stoplight/elements": "^6.0.0-beta.132",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1"
-  },
-  "peerDependencies": {
-    "@stoplight/prism-http": "^4.0.0-beta.26",
-    "mobx": ">=5",
-    "react": ">=16.8",
-    "react-dom": ">=16.8",
-    "vis-network": "^7.5.2",
-    "eslint": "^7.8.1"
-  },
-  "devDependencies": {
     "@stoplight/eslint-config": "^1.1.0",
     "@stoplight/prism-http": "^4.0.0",
     "@types/jest": "^24.0.0",
@@ -57,6 +47,11 @@
       "eslint --fix"
     ]
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -67,11 +62,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
     ]
   }
 }
