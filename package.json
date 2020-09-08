@@ -2,9 +2,9 @@
   "name": "@stoplight/elements-starter-react",
   "version": "1.0.0",
   "private": true,
-  "description": "Basic React app with embedded Stoplight Elements: StoplightAPI and Stoplight Project",
+  "description": "Basic React app with embedded Stoplight Elements",
   "author": "Stoplight <support@stoplight.io>",
-  "license": "Unlicensed",
+  "license": "Unlicense",
   "dependencies": {
     "@stoplight/elements": "^6.0.0-beta.132",
     "react": "^16.13.1"
