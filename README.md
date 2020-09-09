@@ -32,9 +32,9 @@ Stoplight API component allows embedding documentation with no limitations to th
 Clone the [@stoplight/elements-example-react-app](https://github.com/stoplightio/elements/tree/beta/) repo and check out the `main` branch if you haven't already:
 
 ```bash
-git clone https://github.com/stoplightio/elements-example-react-app.git
+git clone https://github.com/stoplightio/elements-starter-react.git
 
-cd elements
+cd elements-starter-react
 
 git checkout main
 ```
