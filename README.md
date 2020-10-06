@@ -154,12 +154,6 @@ export default App;
 
 ```
 
-3. Add Font Awesome to `index.html`
-
-```html
-    <script src="https://kit.fontawesome.com/353fd702c1.js" crossOrigin="anonymous"></script>
-```
-
 ### Step 3 - open your app
 
 At this step you are ready to open your app and see the embedded Elements component. Enjoy!

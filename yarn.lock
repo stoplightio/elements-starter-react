@@ -1200,10 +1200,31 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@fortawesome/fontawesome-common-types@^0.2.29":
-  version "0.2.30"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.30.tgz#2f1cc5b46bd76723be41d0013a8450c9ba92b777"
-  integrity sha512-TsRwpTuKwFNiPhk1UfKgw7zNPeV5RhNp2Uw3pws+9gDAkPGKrtjR1y2lI3SYn7+YzyfuNknflpBA1LRKjt7hMg==
+"@fortawesome/fontawesome-common-types@^0.2.31":
+  version "0.2.31"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.31.tgz#f15a39e5ab4e5dfda0717733bcacb9580e666ad9"
+  integrity sha512-xfnPyH6NN5r/h1/qDYoGB0BlHSID902UkQzxR8QsoKDh55KAPr8ruAoie12WQEEQT8lRE2wtV7LoUllJ1HqCag==
+
+"@fortawesome/fontawesome-svg-core@^1.2.31":
+  version "1.2.31"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.31.tgz#23fff9c521f1b57e79e4c2fd6cce8aa794e9d99e"
+  integrity sha512-lqUWRK+ylHQJG5Kiez4XrAZAfc7snxCc+X59quL3xPfMnxzfyf1lt+/hD7X1ZL4KlzAH2KFzMuEVrolo/rAkog==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.31"
+
+"@fortawesome/free-solid-svg-icons@^5.14.0":
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.0.tgz#6f553f25cdebd7d5ae778598c2ddd3321dd63450"
+  integrity sha512-4dGRsOnGBPM7c0fd3LuiU6LgRSLn01rw1LJ370yC2iFMLUcLCLLynZhQbMhsiJmMwQM/YmPQblAdyHKVCgsIAA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.31"
+
+"@fortawesome/react-fontawesome@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.11.tgz#c1a95a2bdb6a18fa97b355a563832e248bf6ef4a"
+  integrity sha512-sClfojasRifQKI0OPqTy8Ln8iIhnxR/Pv/hukBhWnBz9kQRmqi6JSH3nghlhAY7SUeIIM7B5/D2G8WjX0iepVg==
+  dependencies:
+    prop-types "^15.7.2"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1457,11 +1478,22 @@
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
   integrity sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==
 
-"@stoplight/elements@^6.0.0-beta.132":
-  version "6.0.0-beta.132"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-6.0.0-beta.132.tgz#16c9852cb7cb813c48eb7768b23ac9c4301bf77a"
-  integrity sha512-6B/CUIafbuQqt3d1/O0VEVEuwwiizHsehvdcN1fxq+cwQZuRQeN9g8v/SYMVmfnlnv+24g9VXYz4/S/grtc52w==
+"@stoplight/elements-utils@beta":
+  version "6.0.0-beta.139"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements-utils/-/elements-utils-6.0.0-beta.139.tgz#68e23ebb4e668a4db120d9fc2a555c61c3d3f515"
+  integrity sha512-jWIkSR2gQ2fsTAodk7CPmimRiTz2aHz31+0Eogt8tjpWA00POeJdDnH5A/0twM2YgqtyTXuprBRO27dJf0khuQ==
   dependencies:
+    lodash "^4.17.19"
+
+"@stoplight/elements@beta":
+  version "6.0.0-beta.159"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-6.0.0-beta.159.tgz#12a4cb2993b84e9d7f71976b7bd2c99cdc5dfb05"
+  integrity sha512-mwTwPT8DPD6Cx8VCcGcDmbpjNi+kKoe3yWb24LYL2fA5V5V+PNLd0j1SdTVT/2gBks1b9FtwORh7WaQ1+FOxBA==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.31"
+    "@fortawesome/free-solid-svg-icons" "^5.14.0"
+    "@fortawesome/react-fontawesome" "^0.1.11"
+    "@stoplight/elements-utils" beta
     "@stoplight/http-spec" "^3.1.1"
     "@stoplight/httpsnippet" "^1.2.1"
     "@stoplight/json" "^3.9.0"
@@ -1473,7 +1505,7 @@
     "@stoplight/react-error-boundary" "^1.1.0"
     "@stoplight/tree-list" "^5.0.3"
     "@stoplight/types" "^11.9.0"
-    "@stoplight/ui-kit" "^3.0.0-beta.33"
+    "@stoplight/ui-kit" "^3.0.0-beta.37"
     "@stoplight/yaml" "^4.2.1"
     axios "^0.19.2"
     classnames "^2.2.6"
@@ -1486,8 +1518,10 @@
     object-hash "^2.0.3"
     openapi-sampler "^1.0.0-beta.16"
     parse-prefer-header "^1.0.0"
+    prop-types "^15.7.2"
     react-error-boundary "^1.2.5"
     react-router-dom "^5.2.0"
+    react-router-hash-link "^2.1.0"
     swr "^0.3.0"
     tslib "^1.12.0"
     type-is "^1.6.18"
@@ -1692,15 +1726,15 @@
     "@types/json-schema" "^7.0.4"
     utility-types "^3.10.0"
 
-"@stoplight/ui-kit@^3.0.0-beta.33":
-  version "3.0.0-beta.36"
-  resolved "https://registry.yarnpkg.com/@stoplight/ui-kit/-/ui-kit-3.0.0-beta.36.tgz#4a5f8a54a7a1ea5c218925b8012faa0a79eb1bbd"
-  integrity sha512-+UKYl/q5MB5++On6hoCHokKAkhnOfhnpkeZk0A0ljIvc6b4qjuMCa0dvG0ddTwazXiuoTvC/v1X3AyiKfkTSIw==
+"@stoplight/ui-kit@^3.0.0-beta.37":
+  version "3.0.0-beta.37"
+  resolved "https://registry.yarnpkg.com/@stoplight/ui-kit/-/ui-kit-3.0.0-beta.37.tgz#7666f15e7a4b1f719308d3b3878bbb265c748ff2"
+  integrity sha512-xtn7M595JwTCkg/kbUHz2TJqpqFCcLxHfqSC8SM3LS0Jg7S0abWUZbZgNNL5oJQ5cmFg3MGmZ2K29bApSsfuxw==
   dependencies:
     "@blueprintjs/core" "^3.29.0"
     "@blueprintjs/icons" "^3.19.0"
     "@blueprintjs/select" "^3.13.4"
-    "@fortawesome/fontawesome-common-types" "^0.2.29"
+    "@fortawesome/fontawesome-common-types" "^0.2.31"
     classnames "^2.2.6"
     prismjs "^1.20.0"
     react-input-autosize "^2.2.2"
@@ -10501,6 +10535,13 @@ react-router-dom@^5.2.0:
     react-router "5.2.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
+
+react-router-hash-link@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-router-hash-link/-/react-router-hash-link-2.1.0.tgz#69cc93df0945480adff14e9e501aea5f356896a8"
+  integrity sha512-U/WizkZwV2IoxLScRJX5CHJWreXjv/kCmjT/LpfYiFdXGnrKgPd0KqcA4KfmQbkwO411OwDmUKKz+bOKoMkzKg==
+  dependencies:
+    prop-types "^15.6.0"
 
 react-router@5.2.0:
   version "5.2.0"
