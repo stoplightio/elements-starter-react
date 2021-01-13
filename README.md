@@ -2,16 +2,21 @@
 
 ## Table Of Contents
 
-* [Overview](#overview)
-  * [Stoplight Project](#stoplight-project)
-  * [Stoplight API](#stoplight-api)
-* [Trying the example](#trying-the-example)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Functionalities](#functionalities)
-* ['Elements' in your own React App](#elements-in-your-own-react-app)
-  * [Step 1 - Install stoplight-elements](#step-1-install-elements)
-  * [Step 2 - Embed Elements](#embed-elements)
+- [Stoplight Elements - React App Example](#stoplight-elements---react-app-example)
+  - [Table Of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Stoplight Project](#stoplight-project)
+    - [Stoplight API](#stoplight-api)
+  - [Trying the example](#trying-the-example)
+    - [Installation](#installation)
+    - [Usage](#usage)
+      - [**Stoplight Project**](#stoplight-project-1)
+      - [**Stoplight API**](#stoplight-api-1)
+    - [**Functionalities**](#functionalities)
+  - [Elements in your own React App](#elements-in-your-own-react-app)
+    - [Step 1 - Install Elements](#step-1---install-elements)
+    - [Step 2 - Embed Elements](#step-2---embed-elements)
+    - [Step 3 - open your app](#step-3---open-your-app)
 
 ## Overview
 
@@ -131,7 +136,7 @@ import '@stoplight/elements/styles/elements.scss';
 export const StoplightProjectDocs: React.FC = () => {
   return (
     <div>
-      <StoplightProject workspace="$STOPLIGHT-WORKSPACE-URL" project="#PROJECT-SLUG"></StoplightProject>
+      <StoplightProject workspaceSlug="$STOPLIGHT-WORKSPACE-SLUG" projectSlug="#PROJECT-SLUG"></StoplightProject>
     </div>
   );
 };
