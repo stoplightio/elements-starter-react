@@ -8,8 +8,8 @@ export const StoplightProjectDocs: React.FC = () => {
     <div className="stoplight-container">
       <StoplightProject
         basePath="stoplight-project"
-        workspace="https://elements.stoplight.io"
-        project="studio-demo"
+        workspaceSlug="elements"
+        projectSlug="studio-demo"
       ></StoplightProject>
     </div>
   );
